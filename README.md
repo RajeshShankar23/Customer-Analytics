@@ -10,3 +10,28 @@ The concept of the marketing mix is to develop the best product or service and o
 
 3.How many units is the customer going to purchase?
 
+
+# Approach:
+1.	Purchase Incidence Modeling: We employed logistic regression to predict purchase probabilities based on average price, followed by calculating price elasticities to understand the relationship between price and purchase probability.
+
+2.	Brand Choice Modeling: Utilizing multinomial logistic regression, we predicted brand choices and calculated own and cross-price elasticities to identify brand preferences and competitor effects.
+
+3.	Purchase Quantity Modeling: Using linear regression, we estimated purchase quantity based on price and promotion incidents, then calculated price elasticities of purchase quantity to understand the impact of price changes on purchase behavior.
+# Insights:
+•	Purchase incidence analysis revealed an inverse relationship between price and purchase probability, with different customer segments exhibiting varying levels of price sensitivity.
+
+•	Brand choice modeling highlighted brand preferences and identified potential substitutes, informing targeted marketing strategies.
+
+•	Purchase quantity modeling showed overall inelastic behavior towards price changes, suggesting limited influence of price on purchase quantity.
+
+# Conclusion and Recommendations:
+Our analysis provides valuable insights into customer behavior and market dynamics. To refine our models further, we recommend:
+•	Incorporating additional features such as customer demographics and purchase history for more accurate predictions.
+
+•	Conducting more granular segmentation analysis to tailor marketing strategies to specific customer groups.
+
+•	Exploring alternative modeling techniques and data sources to capture complex interactions and improve model performance.
+
+By leveraging these recommendations, businesses can optimize their marketing strategies, enhance customer satisfaction, and ultimately increase profitability in the competitive marketplace.
+
+
